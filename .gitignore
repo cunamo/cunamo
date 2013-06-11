@@ -1,18 +1,17 @@
-*.gem
-*.rbc
-.bundle
-.config
-coverage
-InstalledFiles
-lib/bundler/man
-pkg
-rdoc
-spec/reports
-test/tmp
-test/version_tmp
-tmp
+# Игнорирование конфига bundler
+/.bundle
 
-# YARD artifacts
-.yardoc
-_yardoc
+# Игнорирование дефолтной базы данных SQLite.
+/db/*.sqlite3
+
+# Игнорирование всех логов и временных файлов.
+/log/*.log
+/tmp
+
+# Игнорирование прочих ненужных файлов.
 doc/
+*.swp
+*~
+.project
+.DS_Store
+.idea
